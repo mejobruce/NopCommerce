@@ -29,7 +29,7 @@ public class Hooks extends LibGlobal {
     public void captureScreenShots(Scenario s) {
 		s.embed(takeScreenShots(), "img/png");
 		driver.manage().deleteAllCookies();
-		driver.quit();
+		//driver.quit();
 		
 		
 	}
