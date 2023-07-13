@@ -3,7 +3,11 @@
   <groupId>com.org</groupId>
   <artifactId>AdactinHotel</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <dependencies>
+    <properties>
+        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>20</maven.compiler.target>
+    </properties>
+    <dependencies>
   <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 <dependency>
     <groupId>io.cucumber</groupId>
