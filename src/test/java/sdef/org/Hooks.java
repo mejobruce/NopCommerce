@@ -19,7 +19,7 @@ public class Hooks extends LibGlobal {
 		WebDriver driver = launchBrowser("chrome");
 		driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(15,  TimeUnit.SECONDS);
-		driver.get("https://www.nopcommerce.com/");
+		driver.get("https://www.nopcommerce.com/en");
 		driver.manage().window().maximize();
 		
 
